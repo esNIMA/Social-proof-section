@@ -1,0 +1,35 @@
+.title {
+  width: 60%;
+  background-color: transparent;
+  @media (max-width: 1521px) {
+    width: 40%;
+  }
+  @media (max-width: 750px) {
+    width: 100%;
+    text-align: center;
+  }
+  &--title {
+    font-weight: bold;
+    font-size: 6rem;
+    color: $color-very-dark-magenta;
+    width: 70%;
+    @media (max-width: 1300px) {
+      font-size: 5rem;
+    }
+    @media (max-width: 750px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  &--caption {
+    line-height: 2.5rem;
+    font-size: 2rem;
+    width: 75%;
+    color: $color-dark-grayish-magenta;
+    @media (max-width: 750px) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.u {
+  &--flex {
+    display: flex;
+    @media (max-width: 750px) {
+      display: block;
+    }
+    &__InC{
+      display: flex;
+    }
+  }
+  &--margin-bottom {
+    &__very-small {
+      margin-bottom: 2rem;
+    }
+    &__small {
+      margin-bottom: 3rem;
+    }
+  }
+  &--margin-left {
+    &__small {
+      margin-left: 0.5rem;
+    }
+    margin-left: 5rem;
+    @media (max-width: 850px) {
+      margin-left: 3rem;
+    }
+    @media (max-width: 750px) {
+      margin-left: auto;
+    }
+  }
+  &--padding-top {
+    padding-top: 1.3rem;
+  }
+  &--align {
+    @media (max-width: 750px) {
+      text-align: center;
+    }
+  }
+}
